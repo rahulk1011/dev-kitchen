@@ -10,107 +10,112 @@
 	<link href="img/favicon.png" rel="icon" type="image/x-icon">
 	<!-- Tastebite External CSS -->
 	<link href="css/tastebite-styles.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+	<script defer src="js/script.js"></script>
 </head>
 <body>
 
-<!-- Tstbite Section, P 0 -->
-<section class="tstbite-section p-0">
-  	<div class="container">
-    	<!-- Tstbite Header, Bg White -->
-		<header class="tstbite-header bg-white">
-			<nav class="navbar navbar-expand-lg has-header-inner px-0">
-				<a class="navbar-brand" href="index.html">
-					<img src="img/logo.png" style="max-width: 161px;" alt="Developer's Bakery">
-				</a>
-				<div class="collapse navbar-collapse" id="menu-4">
-					<ul class="navbar-nav m-auto pt-3 pt-lg-0">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="recipes.html">Recipes</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
+<!-- Header Start -->
+<header class="header">
+    <img class="logo" alt="Developer's Bakery" src="img/rdb-logo.png" />
+    <nav class="main-nav">
+        <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="index.html">Home</a></li>
+            <li><a class="main-nav-link" href="recipes.html">Recipes</a></li>
+        </ul>
+    </nav>
 
-		<!-- Tstbite Components, My 4, My Md 5 -->
-		<section class="tstbite-components my-4 my-md-5">
-			<h5 class="py-3 mb-3 mb-lg-5 h2 border-bottom border-gray-200">All Recipes</h5>
-			<div class="row">
-				<div class="col-lg-3 col-md-4 col-6">
-					<figure class="my-3 my-md-4 text-center tstbite-card">
-						<a href="pages/chocolate-cake.html" class="tstbite-animation stretched-link rounded-circle">
-							<img src="img/recipes/chocolate-cake.jpg" class="rounded-circle" alt="Chocolate Cake">
-						</a>
-						<figcaption class="mt-2 mt-md-3">
-							<a href="pages/chocolate-cake.html" class="tstbite-category-title">Chcolate Cake</a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-4 col-6">
-					<figure class="my-3 my-md-4 text-center tstbite-card">
-						<a href="pages/eggless-coffee-cake.html" class="tstbite-animation stretched-link rounded-circle">
-							<img src="img/recipes/eggless-coffee-cake.jpg" class="rounded-circle" alt="Eggless Coffee Cake">
-						</a>
-						<figcaption class="mt-2 mt-md-3">
-							<a href="pages/eggless-coffee-cake.html" class="tstbite-category-title">Eggless Coffee Cake</a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-4 col-6">
-					<figure class="my-3 my-md-4 text-center tstbite-card">
-						<a href="pages/oreo-lava-cake.html" class="tstbite-animation stretched-link rounded-circle">
-							<img src="img/recipes/oreo-lava-cake.jpg" class="rounded-circle" alt="Oreo Lava Cake">
-						</a>
-						<figcaption class="mt-2 mt-md-3">
-							<a href="pages/oreo-lava-cake.html" class="tstbite-category-title">Oreo Lava Cake</a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-4 col-6">
-					<figure class="my-3 my-md-4 text-center tstbite-card">
-						<a href="pages/chocolate-brownie.html" class="tstbite-animation stretched-link rounded-circle">
-							<img src="img/recipes/chocolate-bronwnie.jpg" class="rounded-circle" alt="Menu">
-						</a>
-						<figcaption class="mt-2 mt-md-3">
-							<a href="pages/chocolate-brownie.html" class="tstbite-category-title">Chocolate Brownie</a>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-4 col-6">
-					<figure class="my-3 my-md-4 text-center tstbite-card">
-						<a href="pages/chocolate-nutties-cupcake.html" class="tstbite-animation stretched-link rounded-circle">
-							<img src="img/recipes/chocolate-nutties-cupcake.jpg" class="rounded-circle" alt="Menu">
-						</a>
-						<figcaption class="mt-2 mt-md-3">
-							<a href="pages/chocolate-nutties-cupcake.html" class="tstbite-category-title">Chocolate Nutties Cupcake</a>
-						</figcaption>
-					</figure>
-				</div>
+    <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+</header>
+<!-- Header End -->
+
+<!-- Main Section Start -->
+<main>
+	<!-- Recipe List Section Start -->
+	<div class="recipes-container">
+		<section class="section-recipes">
+			<h5 class="heading-recipe">Brownies</h5>
+			<hr/>
+			<div class="recipes-row">
+				<figure class="recipes-item">
+					<a href="pages/chocolate-brownie.html">
+						<img src="img/recipes/chocolate-bronwnie.jpg" class="recipes-img" alt="Chocolate Bronwnie">
+					</a>
+					<figcaption>
+						<a href="pages/chocolate-brownie.html" class="recipes-name">Chocolate Brownie</a>
+					</figcaption>
+				</figure>
+				<figure class="recipes-item">
+					<a href="pages/chocolate-nutties-cupcake.html">
+						<img src="img/recipes/chocolate-nutties-cupcake.jpg" class="recipes-img" alt="Chocolate Cupcake">
+					</a>
+					<figcaption>
+						<a href="pages/chocolate-nutties-cupcake.html" class="recipes-name">Chocolate Nutties Cupcake</a>
+					</figcaption>
+				</figure>
 			</div>
 		</section>
-  	</div>
-  
-  	<!-- Tstbite Footer, Pt 3, Pt Md 5, Mt 5 -->
-	<footer class="tstbite-footer pt-3 pt-md-5 mt-5 bg-lightest-gray">
-		<div class="container">
-			<div class="row pb-4 pt-2 align-items-center">
-				<div class="col-md-6 order-2 order-md-0">
-					<p class="text-gray-300 small text-left mb-0">&copy; 2023 Developer's Bakery - All rights reserved</p>
-				</div>
+		<section class="section-recipes">
+			<h5 class="heading-recipe">Cakes</h5>
+			<hr/>
+			<div class="recipes-row">
+				<figure class="recipes-item">
+					<a href="pages/chocolate-cake.html">
+						<img src="img/recipes/chocolate-cake.jpg" class="recipes-img" alt="Chocolate Cake">
+					</a>
+					<figcaption>
+						<a href="pages/chocolate-cake.html" class="recipes-name">Chocolate Cake</a>
+					</figcaption>
+				</figure>
+				<figure class="recipes-item">
+					<a href="pages/eggless-coffee-cake.html.html">
+						<img src="img/recipes/eggless-coffee-cake.jpg" class="recipes-img" alt="Eggless Coffee Cake">
+					</a>
+					<figcaption>
+						<a href="pages/eggless-coffee-cake.html.html" class="recipes-name">Eggless Coffee Cake</a>
+					</figcaption>
+				</figure>
+				<figure class="recipes-item">
+					<a href="pages/oreo-lava-cake.html.html">
+						<img src="img/recipes/oreo-lava-cake.jpg" class="recipes-img" alt="Oreo Lava Cake">
+					</a>
+					<figcaption>
+						<a href="pages/oreo-lava-cake.html" class="recipes-name">Oreo Lava Cake</a>
+					</figcaption>
+				</figure>
 			</div>
-		</div>
-	</footer>
-</section>
+		</section>
+	</div>
+	<!-- Recipe List Section End -->
+</main>
+<!-- Main Section End -->
 
-<!-- Tastebite Scripts -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/html5.min.js"></script>
-<script src="assets/js/sticky.min.js"></script>
-<script src="assets/js/swiper-bundle.min.js"></script>
-<script src="assets/js/masonry.min.js"></script>
-<script src="assets/js/tastebite-scripts.js"></script>
+<!-- Footer Section Start -->
+<footer class="footer">
+    <div class="container grid grid--footer">
+        <div class="nav-col">
+            <p class="copyright">Copyright &copy; <span class="year"></span> by Rahul. All rights reserved</p>
+        </div>
+        <nav class="nav-col">
+            <ul class="footer-nav">
+                <li>
+                    <a class="footer-link" href="#">
+                        <img src="img/facebook.png" class="social-icon" alt="Facebook icon">
+                    </a>
+                    &nbsp;
+                    <a class="footer-link" href="#">
+                        <img src="img/instagram.png" class="social-icon" alt="Instagram icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
 </body>
 </html>

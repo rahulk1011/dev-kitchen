@@ -10,64 +10,71 @@
     <link href="img/favicon.png" rel="icon" type="image/x-icon">
     <!-- Tastebite External CSS -->
     <link href="css/tastebite-styles.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
 </head>
 <body>
 
-<!-- Tstbite Section, P 0 -->
-<section class="tstbite-section p-0">
-    <div class="container">
-        <!-- Tstbite Header, Bg White -->
-        <header class="tstbite-header bg-white">
-            <nav class="navbar navbar-expand-lg has-header-inner px-0">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/logo.png" style="max-width: 161px;" alt="Developer's Bakery">
-                </a>
-                <div class="collapse navbar-collapse" id="menu-4">
-                    <ul class="navbar-nav m-auto pt-3 pt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="recipes.html">Recipes</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+<!-- Header Start -->
+<header class="header">
+    <img class="logo" alt="Developer's Bakery" src="img/rdb-logo.png" />
+    <nav class="main-nav">
+        <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="index.html">Home</a></li>
+            <li><a class="main-nav-link" href="recipes.html">Recipes</a></li>
+        </ul>
+    </nav>
 
-        <div class="card rounded-16 overflow-hidden border-0 bg-secondary mt-0 mt-md-4">
-            <div class="row g-0">
-                <div class="col-lg-7">
-                    <img src="img/home-cake.jpg" class="w-100" alt="Menu">
-                </div>
-                <div class="col-lg-5">
-                    <div class="p-4 p-md-5 d-flex flex-column justify-content-center h-100 position-relative">
-                        <h4 class="my-3">Rahul's Baking Kitchen</h4>
-                        <p class="big pr-0 pr-md-5 pb-3 pb-sm-5 pb-lg-0">You can also make delicious cakes & brownies made by our chef!!</p>
-                    </div>
-                </div>
+    <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+</header>
+<!-- Header End -->
+
+<!-- Main Section Start -->
+<main>
+    <!-- Hero Section Start -->
+    <section class="section-hero">
+        <div class="hero">
+            <div class="hero-text-box">
+                <h1 class="heading-primary">Developer's Bakery</h1>
+                <p class="hero-description">You can also make delicious cakes & brownies made by our Ch(i)ef Developer, Rahul!!</p>
+            </div>
+            <div class="hero-img-box">
+                <picture>
+                    <img src="img/home-cake.jpg" class="hero-img" alt="Home Cake">
+                </picture>
             </div>
         </div>
+    </section>
+    <!-- Hero Section End -->
+</main>
+<!-- Main Section End -->
+
+<!-- Footer Section Start -->
+<footer class="footer">
+    <div class="container grid grid--footer">
+        <div class="nav-col">
+            <p class="copyright">Copyright &copy; <span class="year"></span> by Rahul. All rights reserved</p>
+        </div>
+        <nav class="nav-col">
+            <ul class="footer-nav">
+                <li>
+                    <a class="footer-link" href="https://www.facebook.com/rahulk1011" target="_blank">
+                        <img src="img/facebook.png" class="social-icon" alt="Facebook icon">
+                    </a>
+                    &nbsp;
+                    <a class="footer-link" href="https://www.instagram.com/rahulk1011/" target="_blank">
+                        <img src="img/instagram.png" class="social-icon" alt="Instagram icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
+</footer>
+<!-- Footer Section End -->
 
-    <!-- Tstbite Footer, Pt 3, Pt Md 5, Mt 5 -->
-    <footer class="tstbite-footer pt-3 pt-md-5 mt-5 bg-lightest-gray">
-        <div class="container">
-            <div class="row pb-4 pt-2 align-items-center">
-                <div class="col-md-6 order-2 order-md-0">
-                    <p class="text-gray-300 small text-left mb-0">&copy; 2023 Developer's Bakery - All rights reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-</section>
-
-<!-- Tastebite Scripts -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/html5.min.js"></script>
-<script src="assets/js/sticky.min.js"></script>
-<script src="assets/js/swiper-bundle.min.js"></script>
-<script src="assets/js/masonry.min.js"></script>
-<script src="assets/js/tastebite-scripts.js"></script>
 </body>
 </html>
