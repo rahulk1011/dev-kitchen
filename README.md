@@ -1,3 +1,3 @@
 # dev-kitchen
 
-You can visit the site @ https://rahul-bakery.netlify.app/
+You can visit the site @ https://rahul-kitchen.netlify.app/
