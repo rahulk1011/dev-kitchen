@@ -8,158 +8,135 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Chocolate Nutties Cupcake</title>
 	<link href="../img/favicon.png" rel="icon" type="image/x-icon">
-	<!-- Tastebite External CSS -->
-	<link href="../assets/css/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
-	<link href="../css/tastebite-styles.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" />
+    <script defer src="../js/script.js"></script>
 </head>
 <body>
 
-<!-- Tstbite Section, P 0 -->
-<section class="tstbite-section p-0">
-	<div class="container">
-		<!-- Tstbite Header, Bg White -->
-		<header class="tstbite-header bg-white">
-			<nav class="navbar navbar-expand-lg has-header-inner px-0">
-				<a class="navbar-brand" href="index.html">
-					<img src="../img/logo.png" style="max-width: 161px;" alt="Developer's Bakery">
-				</a>
-				<div class="collapse navbar-collapse" id="menu-4">
-					<ul class="navbar-nav m-auto pt-3 pt-lg-0">
-						<li class="nav-item">
-							<a class="nav-link" href="../index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../recipes.html">Recipes</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-	</div>
+<!-- Header Start -->
+<header class="header">
+    <img class="logo" alt="Developer's Bakery" src="../img/rdb-logo.png" />
+    <nav class="main-nav">
+        <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="../index.html">Home</a></li>
+            <li><a class="main-nav-link" href="../recipes.html">Recipes</a></li>
+        </ul>
+    </nav>
 
-	<div class="container">
-	<!-- Tstbite Components, My 4, My Md 5 -->
-		<section class="tstbite-components my-4 my-md-5">
-			<div class="d-sm-flex">
-				<div>
-					<h5 class="py-3 mb-0 h2">Chocolate Nutties Cupcake</h5>
-				</div>
+    <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+</header>
+<!-- Header End -->
+
+<!-- Main Section Start -->
+<main>
+	<!-- Recipe Image Section Start -->
+	<section class="recipe-section">
+		<div class="recipe-container">
+			<div class="recipe-title">
+				<h2>Chocolate Nutties Cupcake</h2>
+				<hr/>
 			</div>
-			<div class="blog-detail">
-				<br> 
-				<div class="rounded-12 overflow-hidden position-relative tstbite-svg">
-					<img src="../img/recipes/chocolate-nutties-cupcake.jpg" class="w-100" alt="Chocolate Nutties Cupcake">
+			<div class="recipe-detail">
+				<div class="recipe-img">
+					<img src="../img/recipes/chocolate-nutties-cupcake.jpg" alt="Chocolate Cake">
 				</div>
-				<br>
-				<div class="row mt-0 mt-md-5">
-					<div class="col-md-6">
-						<div class="mt-4 mt-md-5">
-							<h6>Ingredients</h6>
-							<div class="checklist pb-4">
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">Cadbury Nutties (4 packets)</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">Marie biscuits (5-10)</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">100g Dark Chocolate</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">100ml Fresh cream (preferably chilled)</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">50ml Whipped cream</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">2 teaspoon vanilla</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">Chocolate chips</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">50g Butter</label>
-								</div>
-							</div>
-						</div>
+				<div class="recipe-ingredients">
+					<h4>Ingredients</h4>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Cadbury Nutties (4 packets)</label>
 					</div>
-					<div class="col-md-6">
-						<div class="mt-5">
-							<h6>Instructions</h6>
-							<ul class="instruction-list list-unstyled">
-								<li>
-									<span>1</span>
-									Grind 3 packets of Nutties & Marie biscuits in a mixer. Mix them with butter.
-								</li>
-								<li>
-									<span>2</span>
-									Set the mixture in small cups or cake base & freeze it for 2 hours.
-								</li>
-								<li>
-									<span>3</span>
-									In a bowl, melt the Dark chocolate & mix it with the fresh cream.
-								</li>
-								<li>
-									<span>4</span>
-									We will add this mixture as the first layer on the base.
-								</li>
-								<li>
-									<span>5</span>
-									In a separate bowl, whip the whipping cream & vanilla using a blender.
-								</li>
-								<li>
-									<span>6</span>
-									Take out the chocolate base from the freezer & add the fresh cream mixture on top.
-								</li>
-								<li>
-									<span>7</span>
-									Then add the whipped cream mixture on top of it.
-								</li>
-								<li>
-									<span>8</span>
-									Freeze the cupcakes again for 3-4 hours.
-								</li>
-								<li>
-									<span>9</span>
-									Garnish it with chopped nutties & chocolate chips.
-								</li>
-								<li>
-									<span>10</span>
-									Serve cold.
-								</li>
-							</ul>
-						</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Marie biscuits (5-10)</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>100gms Dark Chocolate</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>100ml Fresh Cream (preferably chilled)</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>50ml Whipped Cream</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>2 Teaspoon Vanilla</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Chocolate Chips</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>50gm Butter</label>
 					</div>
 				</div>
-			</div>
-		</section>
-	</div>
-	<!-- Tstbite Footer, Pt 3, Pt Md 5, Mt 5 -->
-	<footer class="tstbite-footer pt-3 pt-md-5 mt-5 bg-lightest-gray">
-		<div class="container">
-			<div class="row pb-4 pt-2 align-items-center">
-				<div class="col-md-6 order-2 order-md-0">
-				<p class="text-gray-300 small text-left mb-0">&copy; 2023 Developer's Bakery - All rights reserved</p>
+				<div class="recipe-instructions">
+					<h4>Instructions</h4>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Grind 3 packets of Nutties & Marie biscuits in a mixer. Mix them with butter.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Set the mixture in small cups or cake base & freeze it for 2 hours.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>In a bowl, melt the Dark chocolate & mix it with the fresh cream.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Add the molten chocolate mixture as the first layer on the base.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>In a separate bowl, whip the whipping cream & vanilla using a blender.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Take out the chocolate base from the freezer & add the fresh cream mixture on top.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Then add the whipped cream mixture on top of it.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Freeze the cupcakes again for 3-4 hours.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Garnish it with chopped nutties & chocolate chips. Serve cold.</label>
+					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
-</section>
+	</section>
+	<!-- Recipe Image Section End -->
+</main>
+<!-- Main Section End -->
 
-<!-- Tastebite Scripts -->
-<script src="../assets/js/bootstrap.bundle.min.js"></script>
-<script src="../assets/js/html5.min.js"></script>
-<script src="../assets/js/sticky.min.js"></script>
-<script src="../assets/js/swiper-bundle.min.js"></script>
-<script src="../assets/js/masonry.min.js"></script>
-<script src="../assets/js/tastebite-scripts.js"></script>
+<!-- Footer Section Start -->
+<footer class="footer">
+    <div class="footer-container">
+        <p class="copyright">Copyright &copy; <span class="year"></span> by Rahul. All rights reserved</p>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>

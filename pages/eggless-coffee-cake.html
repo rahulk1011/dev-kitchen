@@ -8,138 +8,119 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Eggless Coffee Cake</title>
 	<link href="../img/favicon.png" rel="icon" type="image/x-icon">
-	<!-- Tastebite External CSS -->
-	<link href="../assets/css/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
-	<link href="../css/tastebite-styles.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" />
+    <script defer src="../js/script.js"></script>
 </head>
 <body>
 
-<!-- Tstbite Section, P 0 -->
-<section class="tstbite-section p-0">
-	<div class="container">
-		<!-- Tstbite Header, Bg White -->
-		<header class="tstbite-header bg-white">
-			<nav class="navbar navbar-expand-lg has-header-inner px-0">
-				<a class="navbar-brand" href="index.html">
-					<img src="../img/logo.png" style="max-width: 161px;" alt="Developer's Bakery">
-				</a>
-				<div class="collapse navbar-collapse" id="menu-4">
-					<ul class="navbar-nav m-auto pt-3 pt-lg-0">
-						<li class="nav-item">
-							<a class="nav-link" href="../index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../recipes.html">Recipes</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-	</div>
+<!-- Header Start -->
+<header class="header">
+    <img class="logo" alt="Developer's Bakery" src="../img/rdb-logo.png" />
+    <nav class="main-nav">
+        <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="../index.html">Home</a></li>
+            <li><a class="main-nav-link" href="../recipes.html">Recipes</a></li>
+        </ul>
+    </nav>
 
-	<div class="container">
-	<!-- Tstbite Components, My 4, My Md 5 -->
-		<section class="tstbite-components my-4 my-md-5">
-			<div class="d-sm-flex">
-				<div>
-					<h5 class="py-3 mb-0 h2">Eggless Coffee Cake</h5>
-				</div>
+    <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+</header>
+<!-- Header End -->
+
+<!-- Main Section Start -->
+<main>
+	<!-- Recipe Image Section Start -->
+	<section class="recipe-section">
+		<div class="recipe-container">
+			<div class="recipe-title">
+				<h2>Eggless Coffee Cake</h2>
+				<hr/>
 			</div>
-			<div class="blog-detail">
-				<br> 
-				<div class="rounded-12 overflow-hidden position-relative tstbite-svg">
-					<img src="../img/recipes/eggless-coffee-cake.jpg" class="w-100" alt="Eggless Coffee Cake">
+			<div class="recipe-detail">
+				<div class="recipe-img">
+					<img src="../img/recipes/eggless-coffee-cake.jpg" alt="Chocolate Cake">
 				</div>
-				<br>
-				<div class="row mt-0 mt-md-5">
-					<div class="col-md-6">
-						<div class="mt-4 mt-md-5">
-							<h6>Ingredients</h6>
-							<div class="checklist pb-4">
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">5 spoon coffee</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">1/2 cup powder sugar</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">1/2 cup milk</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">1 cup flour</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">2 spoon baking powder</label>
-								</div>
-								<div class="form-check form-check-rounded recipe-checkbox">
-									<img src="../img/right-arrow-30.png" class="form-check-input">
-									<label class="form-check-label">1/4 cup butter</label>
-								</div>
-							</div>
-						</div>
+				<div class="recipe-ingredients">
+					<h4>Ingredients</h4>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>5 spoon Coffee</label>
 					</div>
-					<div class="col-md-6">
-						<div class="mt-5">
-							<h6>Instructions</h6>
-							<ul class="instruction-list list-unstyled">
-								<li>
-									<span>1</span>
-									Mix the coffee, sugar & milk in a bowl.
-								</li>
-								<li>
-									<span>2</span>
-									Add flour & baking powder into the mixture.
-								</li>
-								<li>
-									<span>3</span>
-									Now add butter & mix it well till the batter is smooth.
-								</li>
-								<li>
-									<span>4</span>
-									Pre-heat oven for 5 minutes at 180°C.
-								</li>
-								<li>
-									<span>5</span>
-									Grease a baking tray & put the batter into it.
-								</li>
-								<li>
-									<span>6</span>
-									Bake for 15-20 minutes at 180°C.
-								</li>
-								<li>
-									<span>7</span>
-									Serve with chocolate sauce on top.
-								</li>
-							</ul>
-						</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>50gm Powdered Sugar</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>50ml Milk</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>100gms White Flour</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>2 spoon baking powder</label>
+					</div>
+					<div class="ingredient">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>25gm Butter</label>
 					</div>
 				</div>
-			</div>
-		</section>
-	</div>
-	<!-- Tstbite Footer, Pt 3, Pt Md 5, Mt 5 -->
-	<footer class="tstbite-footer pt-3 pt-md-5 mt-5 bg-lightest-gray">
-		<div class="container">
-			<div class="row pb-4 pt-2 align-items-center">
-				<div class="col-md-6 order-2 order-md-0">
-				<p class="text-gray-300 small text-left mb-0">&copy; 2023 Developer's Bakery - All rights reserved</p>
+				<div class="recipe-instructions">
+					<h4>Instructions</h4>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Mix the coffee, sugar & milk in a bowl.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Add flour & baking powder into the mixture.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Now add butter & mix it well till the batter is smooth.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Pre-heat oven for 5 minutes at 180°C.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Grease a baking tray & put the batter into it.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Bake for 15-20 minutes at 180°C.</label>
+					</div>
+					<div class="instructions">
+						<ion-icon name="caret-forward-outline" class="arrow-icon"></ion-icon>
+						<label>Serve with chocolate syrup on top.</label>
+					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
-</section>
+	</section>
+	<!-- Recipe Image Section End -->
+</main>
+<!-- Main Section End -->
 
-<!-- Tastebite Scripts -->
-<script src="../assets/js/bootstrap.bundle.min.js"></script>
-<script src="../assets/js/html5.min.js"></script>
-<script src="../assets/js/sticky.min.js"></script>
-<script src="../assets/js/swiper-bundle.min.js"></script>
-<script src="../assets/js/masonry.min.js"></script>
-<script src="../assets/js/tastebite-scripts.js"></script>
+<!-- Footer Section Start -->
+<footer class="footer">
+    <div class="footer-container">
+        <p class="copyright">Copyright &copy; <span class="year"></span> by Rahul. All rights reserved</p>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
