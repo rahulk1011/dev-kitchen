@@ -384,6 +384,12 @@ Instead, 1rem = 1em = 16px
     .hero-text-box {
         text-align: center;
     }
+    .hero-img-box img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .heading-recipe {
         padding-left: 2.4rem;
     }
