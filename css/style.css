@@ -410,6 +410,9 @@ Instead, 1rem = 1em = 16px
         height: auto;
         border: 1px solid #444;
     }
+    .recipe-container {
+        padding: 2.4rem;
+    }
     .recipe-title {
         padding-top: 0;
     }
