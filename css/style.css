@@ -63,8 +63,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fdf2e9;
-    min-height: 14vh;
+    background-color: #f1e1c1;
+    max-height: 15vh;
+    border-bottom: 1px solid #333;
   
     /* Sticky navigation */
     height: 9.6rem;
@@ -131,9 +132,9 @@ body {
 
 /* **** Hero Section **** */
 .section-hero {
-    background-color: #fdf2e9;
+    background: linear-gradient(0deg, #f1e1c1 0%, #fdfaf5 60%);
     padding: 4.8rem 0 9.6rem 0;
-    min-height: 75vh;
+    min-height: 81vh;
 }
 .hero {
     max-width: 130rem;
@@ -165,7 +166,7 @@ body {
 }
 .recipes-container {
     padding: 1rem 16rem;
-    background-color: #fcf7f3;
+    background-color: #fdfaf5;
 }
 .recipes-row {
     display: grid;
@@ -203,13 +204,15 @@ body {
 /* **** Recipe Page Section **** */
 .recipe-section {
     padding: 0 2.4rem;
-    min-height: 75vh;
+    min-height: 81vh;
+    background: linear-gradient(0deg, #f1e1c1 0%, #fdfaf5 40%);
 }
 .recipe-container {
     display: flex;
     flex-direction: column;
     row-gap: 2.4rem;
     padding: 0 8rem;
+    
 }
 .recipe-title {
     padding-top: 2rem;
@@ -270,17 +273,18 @@ body {
 .footer {
     bottom: 0;
     width: 100%;
-    max-height: 11vh;
-    padding: 1.2rem 0;
+    max-height: 10vh;
+    padding: 0.4rem 0;
     border-top: 1px solid #ccc;
-    background-color: #fcf7f3;
+    background: linear-gradient(180deg, #ebf4f5 0%, #b3c5df 100%);
+    background: linear-gradient(0deg, #08213f 0%, #547b92 100%);
 }
 .footer-container {
-    padding: 2rem 0;
+    padding: 1.2rem 0;
     text-align: center;
 }
 .copyright {
-    font-size: 1.4rem;
-    color: #767676;
-    margin-top: auto;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 400;
 }
