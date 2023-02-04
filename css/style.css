@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Ruda', sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -27,36 +27,13 @@ body {
     margin: 0 auto;
     padding: 0 3.2rem;
 }
-.heading-primary,
-.heading-secondary,
-.heading-tertiary {
+.heading-primary {
     font-weight: 700;
     color: #333;
     letter-spacing: -0.5px;
-}
-.heading-primary {
     font-size: 5.2rem;
     line-height: 1.05;
     margin-bottom: 3.2rem;
-}
-.heading-secondary {
-    font-size: 4.4rem;
-    line-height: 1.2;
-    margin-bottom: 9.6rem;
-}
-.heading-tertiary {
-    font-size: 3rem;
-    line-height: 1.2;
-    margin-bottom: 3.2rem;
-}
-.subheading {
-    display: block;
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: #cf711f;
-    text-transform: uppercase;
-    margin-bottom: 1.6rem;
-    letter-spacing: 0.75px;
 }
 /* **** Header Section **** */
 .header {
@@ -231,6 +208,10 @@ body {
     border: 3px solid #555;
     border-radius: 50%;
     align-content: center;
+    transition: all 0.5s ease-in-out;
+}
+.recipe-img img:hover {
+    transform: scale(1.05);
 }
 .recipe-ingredients h4,
 .recipe-instructions h4 {
