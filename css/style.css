@@ -444,3 +444,12 @@ Instead, 1rem = 1em = 16px
         margin-bottom: 2rem;
     }
 }
+
+/* Below 25*16 = 400 px (Phones) */
+@media (max-width: 25em) {
+    .hero-img-box {
+        margin: 0;
+        width: 45rem;
+        height: auto;
+    }
+}
