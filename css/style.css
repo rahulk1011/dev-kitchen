@@ -384,11 +384,17 @@ Instead, 1rem = 1em = 16px
     .hero-text-box {
         text-align: center;
     }
+    .hero-img-box {
+        width: 45rem;
+        height: auto;
+    }
     .hero-img-box img {
-        width: 80%;
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .hero-img {
+        width: 75%;
     }
     .heading-recipe {
         padding-left: 2.4rem;
@@ -396,13 +402,6 @@ Instead, 1rem = 1em = 16px
     .section-hero {
         padding: 2.4rem 0 6.4rem 0;
         min-height: 85vh;
-    }
-    .hero-img-box {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50rem;
-        height: auto;
     }
     .recipes-container {
         padding: 0 3.6rem;
@@ -442,14 +441,5 @@ Instead, 1rem = 1em = 16px
     }
     .recipe-img {
         margin-bottom: 2rem;
-    }
-}
-
-/* Below 25*16 = 400 px (Phones) */
-@media (max-width: 25em) {
-    .hero-img-box {
-        margin: 0;
-        width: 45rem;
-        height: auto;
     }
 }
