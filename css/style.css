@@ -373,6 +373,9 @@ Instead, 1rem = 1em = 16px
         width: 10rem;
         height: auto;
     }
+    .main-nav-link:link, .main-nav-link:visited {
+        font-size: 1.8rem;
+    }
     .hero {
         display: flex;
         flex-direction: column;
@@ -397,16 +400,21 @@ Instead, 1rem = 1em = 16px
     }
     .recipes-container {
         padding: 0 3.6rem;
-        min-height: 87vh;
+        min-height: 85vh;
     }
     .recipes-row {
         display: flex;
         flex-direction: column;
+        align-content: center;
+        margin: 3.6rem 0;
     }
     .recipes-item {
         display: grid;
         grid-template-columns: 1fr 3fr;
         text-align: left;
+    }
+    .recipes-img {
+        margin-bottom: 0;
     }
     .recipes-item img {
         width: 8.4rem;
