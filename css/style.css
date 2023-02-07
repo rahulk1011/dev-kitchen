@@ -136,7 +136,8 @@ body {
 .section-recipes {
     margin: 1rem 0;
 }
-.section-recipes h5{
+.section-recipes h5,
+.recipe-title h2 {
     padding-bottom: 1.2rem;
     border-bottom: 1px solid #ddd;
 }
