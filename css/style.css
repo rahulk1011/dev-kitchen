@@ -346,6 +346,10 @@ Instead, 1rem = 1em = 16px
     .logo {
         width: 7.2rem;
         height: auto;
+        margin-right: 3.6rem;
+    }
+    .main-nav-list {
+        gap: 2.4rem;
     }
     .main-nav-link:link, .main-nav-link:visited {
         font-size: 1.8rem;
