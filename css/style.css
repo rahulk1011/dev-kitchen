@@ -125,7 +125,7 @@ body {
 
 /* **** All Recipe Section **** */
 .section-recipes {
-    margin: 5rem 0;
+    margin: 1rem 0;
 }
 .heading-recipe {
     font-weight: 600;
@@ -136,6 +136,7 @@ body {
 .recipes-container {
     padding: 1rem 16rem;
     background-color: #fdfaf5;
+    min-height: 81vh;
 }
 .recipes-row {
     display: grid;
