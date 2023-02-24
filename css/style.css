@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700;800&display=swap');
+
 :root {
     --header: #F5F5DC;
     --background: #FBFBF0;
@@ -16,11 +20,11 @@ html {
     /* Percentage of user's browser font-size setting */
     font-size: 62.5%;
     overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
     /* Doesn't work on Safari */
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Quicksand', sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #333;
@@ -434,3 +438,7 @@ Instead, 1rem = 1em = 16px
         margin-bottom: 2rem;
     }
 }
+/*
+Important break-points..
+340, 768, 1024, 1600
+*/
