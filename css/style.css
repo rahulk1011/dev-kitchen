@@ -126,7 +126,8 @@ body {
     margin-bottom: 4.8rem;
 }
 .hero-img-box img {
-    border-radius: 2px;
+    border-radius: 5px;
+    border: 2px solid brown;
 }
 .hero-img {
     width: 100%;
@@ -166,13 +167,13 @@ body {
     text-align: center;
 }
 .recipes-img {
-    border-radius: 50%;
+    border-radius: 40%;
     margin-bottom: 2.4rem;
 }
 .recipes-item img {
     display: block;
     width: 100%;
-    border: 2px solid #ddd;
+    border: 2px solid #555;
 	transition: all 0.5s ease-in-out;
 }
 .recipes-item img:hover {
@@ -225,7 +226,7 @@ body {
     width: 35rem;
     height: 35rem;
     border: 3px solid #555;
-    border-radius: 50%;
+    border-radius: 40%;
     align-content: center;
     transition: all 0.5s ease-in-out;
 }
