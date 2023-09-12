@@ -390,7 +390,7 @@ Instead, 1rem = 1em = 16px
         margin-right: auto;
     }
     .hero-img {
-        width: 75%;
+        width: 100%;
     }
     .heading-recipe {
         padding-left: 2.4rem;
