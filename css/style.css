@@ -121,7 +121,7 @@ body {
     align-items: center;
 }
 .hero-description {
-    font-size: 2rem;
+    font-size: 2.6rem;
     line-height: 1.6;
     margin-bottom: 4.8rem;
 }
@@ -182,7 +182,7 @@ body {
 .recipes-name {
     font-weight: 600;
     color: #555;
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
 }
 .recipes-name:hover {
@@ -236,7 +236,7 @@ body {
 .recipe-ingredients h4,
 .recipe-instructions h4 {
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     padding-left: 0.5rem;
     padding-bottom: 1rem;
 }
@@ -258,7 +258,7 @@ body {
 }
 .ingredient label,
 .instructions label {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 /* **** Footer Section **** */
@@ -356,7 +356,7 @@ Instead, 1rem = 1em = 16px
 /* Below 34*16 = 544 px (Phones) */
 @media (max-width: 34em) {
     html {
-        font-size: 55%;
+        font-size: 60%;
     }
     .header {
         padding: 0 5rem;
@@ -416,6 +416,9 @@ Instead, 1rem = 1em = 16px
     }
     .recipes-img {
         margin-bottom: 0;
+    }
+    .recipes-name {
+        font-size: 2.6rem;
     }
     .recipes-item img {
         width: 8.4rem;
