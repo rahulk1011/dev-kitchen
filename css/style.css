@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --header: #F5F5DC;
-    --background: #FBFBF0;
+    --header: #B2BEB5;
+    --background: #FFFAFA;
     --footer: #2A3439;
     --active: #B22222;
 }
@@ -50,7 +50,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(0deg, var(--background) 0%, var(--header) 60%);
+    background: var(--header);
     max-height: 15vh;
     border-bottom: 1px solid #eee;
   
@@ -168,7 +168,7 @@ body {
     text-align: center;
 }
 .recipes-img {
-    border-radius: 40%;
+    border-radius: 5px;
     margin-bottom: 2.4rem;
 }
 .recipes-item img {
@@ -221,7 +221,7 @@ body {
     width: 35rem;
     height: 35rem;
     border: 3px solid #555;
-    border-radius: 40%;
+    border-radius: 5px;
     align-content: center;
     transition: all 0.5s ease-in-out;
 }
