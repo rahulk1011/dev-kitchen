@@ -143,7 +143,7 @@ body {
 }
 .section-recipes h5,
 .recipe-title h2 {
-    padding-bottom: 1.2rem;
+    padding-bottom: 2.2rem;
     border-bottom: 1px solid #ddd;
 }
 .heading-recipe {
@@ -209,16 +209,14 @@ body {
 }
 .recipe-title h2 {
     margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 4.8rem;
 }
 .recipe-detail {
     display: flex;
     align-items: top;
     justify-content: space-between;
     column-gap: 3.2rem;
-}
-.recipe-title h2 {
-    font-weight: 700;
-    font-size: 4.8rem;
 }
 .recipe-img {
     width: 100%;
@@ -241,14 +239,19 @@ body {
     padding-left: 0.5rem;
     padding-bottom: 1rem;
 }
-.recipe-ingredients,
+.recipe-ingredients {
+    padding-top: 1rem;
+    width: 100rem;
+}
 .recipe-instructions {
     padding-top: 1rem;
-    width: 100%;
+    width: 150rem;
 }
 .arrow-icon {
     font-size: 1.6rem;
     align-self: center;
+    padding-top: 2px;
+    padding-right: 4px;
 }
 .ingredient,
 .instructions {
@@ -432,7 +435,7 @@ Instead, 1rem = 1em = 16px
         padding-top: 0;
     }
     .recipe-title h2 {
-        font-size: 3.6rem;
+        font-size: 3rem;
     }
     .recipe-detail {
         display: flex;
@@ -440,6 +443,9 @@ Instead, 1rem = 1em = 16px
     }
     .recipe-img {
         margin-bottom: 2rem;
+    }
+    .recipe-instructions {
+        width: 48rem;
     }
 }
 /*
