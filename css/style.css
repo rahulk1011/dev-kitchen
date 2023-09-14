@@ -369,9 +369,6 @@ Instead, 1rem = 1em = 16px
     .main-nav-list {
         gap: 2.4rem;
     }
-    .main-nav-link:link, .main-nav-link:visited {
-        font-size: 1.8rem;
-    }
     .hero {
         display: flex;
         flex-direction: column;
@@ -393,6 +390,8 @@ Instead, 1rem = 1em = 16px
         width: 100%;
     }
     .heading-recipe {
+        margin-top: -2rem;
+        padding-top: 1.4rem;
         padding-left: 2.4rem;
     }
     .section-hero {
