@@ -177,9 +177,6 @@ body {
     border: 2px solid #555;
 	transition: all 0.5s ease-in-out;
 }
-.recipes-item img:hover {
-    transform: scale(1.05);
-}
 .recipes-name {
     font-weight: 600;
     color: #555;
@@ -188,7 +185,6 @@ body {
 }
 .recipes-name:hover {
     color: var(--active);
-    transform: scale(1.1);
 }
 
 /* **** Recipe Page Section **** */
@@ -228,9 +224,6 @@ body {
     border-radius: 40%;
     align-content: center;
     transition: all 0.5s ease-in-out;
-}
-.recipe-img img:hover {
-    transform: scale(1.05);
 }
 .recipe-ingredients h4,
 .recipe-instructions h4 {
