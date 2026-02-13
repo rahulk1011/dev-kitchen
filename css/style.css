@@ -58,6 +58,22 @@ body main {
 	width: auto;
 }
 
+/* **** Footer Section **** */
+.footer {
+	background: var(--footer);
+	padding: 16px 24px;
+	color: #fff;
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.footer p {
+	font-size: 12px;
+	text-align: center;
+}
+
 /* **** Navigation **** */
 .header .header-wrapper ul {
 	list-style: none;
@@ -93,6 +109,7 @@ body main {
 	flex-direction: row;
 	align-items: center;
 	padding: 80px 0;
+	min-height: 87.5vh;
 }
 
 .section-hero .text-container {
@@ -144,6 +161,7 @@ body main {
 	max-width: 1440px;
 	margin: 0 auto;
 	padding: 32px 0;
+	min-height: 87.5vh;
 }
 
 .recipes-container h1 {
