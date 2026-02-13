@@ -15,14 +15,14 @@
 
 	<!-- Header Start -->
 	<header class="header">
-		<img class="logo" alt="Developer's Bakery" src="img/logo.png" />
-		<nav class="main-nav">
+		<div class="header-wrapper">
+			<img class="logo" alt="Developer's Bakery" src="img/logo.png" />
 			<ul class="main-nav-list">
-				<li><a class="main-nav-link" href="index.html">Home</a></li>
-				<li><a class="main-nav-link active" href="brownies.html"><span class="active-link">Brownies</span></a></li>
-				<li><a class="main-nav-link" href="cakes.html">Cakes</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a class="active-link" href="brownies.html">Brownies</a></li>
+				<li><a href="cakes.html">Cakes</a></li>
 			</ul>
-		</nav>
+		</div>
 	</header>
 	<!-- Header End -->
 
@@ -30,57 +30,37 @@
 	<main>
 		<!-- Recipe List Section Start -->
 		<div class="recipes-container">
-			<section class="section-recipes">
-				<h5 class="heading-recipe">Brownies</h5>
-				<div class="recipes-row">
-					<figure class="recipes-item">
-						<a href="pages/chocolate-brownie.html">
-							<img src="img/recipes/chocolate-bronwnie.jpg" class="recipes-img" alt="Chocolate Bronwnie">
-						</a>
-						<figcaption>
-							<a href="pages/chocolate-brownie.html" class="recipes-name">Chocolate Brownie</a>
-						</figcaption>
-					</figure>
-					<figure class="recipes-item">
-						<a href="pages/chocolate-nutties-cupcake.html">
-							<img src="img/recipes/chocolate-nutties-cupcake.jpg" class="recipes-img" alt="Chocolate Cupcake">
-						</a>
-						<figcaption>
-							<a href="pages/chocolate-nutties-cupcake.html" class="recipes-name">Chocolate Nutties Cupcake</a>
-						</figcaption>
-					</figure>
-					<figure class="recipes-item">
-						<a href="pages/eggless-chocolate-brownie.html">
-							<img src="img/recipes/eggless-chocolate-bronwnie.jpg" class="recipes-img"
-								alt="Eggless Chocolate Bronwnie">
-						</a>
-						<figcaption>
-							<a href="pages/eggless-chocolate-brownie.html" class="recipes-name">Eggless Chocolate Brownie</a>
-						</figcaption>
-					</figure>
-					<figure class="recipes-item">
-						<a href="pages/tiramisu.html">
-							<img src="img/recipes/tiramisu.jpg" class="recipes-img" alt="Tiramisu">
-						</a>
-						<figcaption>
-							<a href="pages/tiramisu.html" class="recipes-name">Tiramisu</a>
-						</figcaption>
-					</figure>
+			<h1>Brownies</h1>
+			<div class="recipes-wrapper">
+				<div class="recipes-item">
+					<a href="pages/chocolate-brownie.html">
+						<img src="img/recipes/chocolate-bronwnie.jpg" alt="Chocolate Bronwnie">
+						<h2>Chocolate Brownie</h2>
+					</a>
 				</div>
-			</section>
+				<div class="recipes-item">
+					<a href="pages/chocolate-nutties-cupcake.html">
+						<img src="img/recipes/chocolate-nutties-cupcake.jpg" alt="Chocolate Cupcake">
+						<h2>Chocolate Nutties Cupcake</h2>
+					</a>
+				</div>
+				<div class="recipes-item">
+					<a href="pages/eggless-chocolate-brownie.html">
+						<img src="img/recipes/eggless-chocolate-bronwnie.jpg" alt="Eggless Chocolate Bronwnie">
+						<h2>Eggless Chocolate Brownie</h2>
+					</a>
+				</div>
+				<div class="recipes-item">
+					<a href="pages/tiramisu.html">
+						<img src="img/recipes/tiramisu.jpg" alt="Tiramisu">
+						<h2>Tiramisu</h2>
+					</a>
+				</div>
+			</div>
 		</div>
 		<!-- Recipe List Section End -->
 	</main>
 	<!-- Main Section End -->
-
-	<!-- Footer Section Start -->
-	<footer class="footer">
-		<div class="footer-container">
-			<p class="copyright"><span class="year"></span> by Rahul Khan</p>
-		</div>
-	</footer>
-	<!-- Footer Section End -->
-
 </body>
 
 </html>
